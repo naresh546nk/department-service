@@ -1,0 +1,140 @@
+2022-01-08 07:51:20.851  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] c.d.DepartmentMicorservicesApplication   : Starting DepartmentMicorservicesApplication using Java 16.0.2 on LAPTOP-762HISMA with PID 10728 (C:\Users\Naresh kumar\Desktop\Microservices - bkp\Department\Department-micorservices\target\classes started by Naresh kumar in C:\Users\Naresh kumar\Desktop\Microservices - bkp\Department\Department-micorservices)
+2022-01-08 07:51:20.855  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] c.d.DepartmentMicorservicesApplication   : No active profile set, falling back to default profiles: default
+2022-01-08 07:51:20.911  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-08 07:51:20.912  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-08 07:51:22.147  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-08 07:51:22.310  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 155 ms. Found 1 JPA repository interfaces.
+2022-01-08 07:51:22.758  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e83761cf-5ce9-330e-8677-7ccf02c2f729
+2022-01-08 07:51:23.739  WARN [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-01-08 07:51:24.809  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2022-01-08 07:51:24.821  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-08 07:51:24.821  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-01-08 07:51:24.945  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-08 07:51:24.945  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4032 ms
+2022-01-08 07:51:24.965  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-08 07:51:25.206  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-08 07:51:25.217  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:~/testdb'
+2022-01-08 07:51:25.496  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-08 07:51:25.571  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-01-08 07:51:25.785  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-08 07:51:25.925  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-08 07:51:26.806  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-08 07:51:26.827  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-08 07:51:27.687  WARN [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-08 07:51:28.742  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-08 07:51:28.881  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-01-08 07:51:29.266  WARN [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-01-08 07:51:29.375  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-01-08 07:51:29.596  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-01-08 07:51:29.682  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-01-08 07:51:29.691  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-08 07:51:29.738  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-01-08 07:51:29.739  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-01-08 07:51:29.739  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-01-08 07:51:29.739  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-01-08 07:51:29.739  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-01-08 07:51:29.739  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-01-08 07:51:29.739  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-01-08 07:51:30.608  INFO [DEPARTMENT-SERVICE,,] 10728 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-08 07:51:30.609  INFO [DEPARTMENT-SERVICE,,] 10728 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-08 07:51:30.613  INFO [DEPARTMENT-SERVICE,,] 10728 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-01-08 07:51:32.180  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-01-08 07:51:32.191  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-01-08 07:51:32.202  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-01-08 07:51:32.225  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1641608492223 with initial instances count: 0
+2022-01-08 07:51:32.242  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DEPARTMENT-SERVICE with eureka with status UP
+2022-01-08 07:51:32.244  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1641608492244, current=UP, previous=STARTING]
+2022-01-08 07:51:32.247  INFO [DEPARTMENT-SERVICE,,] 10728 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/LAPTOP-762HISMA:DEPARTMENT-SERVICE:9001: registering service...
+2022-01-08 07:51:32.297  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2022-01-08 07:51:32.298  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9001
+2022-01-08 07:51:32.513  INFO [DEPARTMENT-SERVICE,,] 10728 --- [restartedMain] c.d.DepartmentMicorservicesApplication   : Started DepartmentMicorservicesApplication in 12.369 seconds (JVM running for 14.079)
+2022-01-08 07:51:34.149  INFO [DEPARTMENT-SERVICE,,] 10728 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/LAPTOP-762HISMA:DEPARTMENT-SERVICE:9001 - registration status: 204
+2022-01-08 07:52:02.203  INFO [DEPARTMENT-SERVICE,,] 10728 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-01-08 07:52:02.203  INFO [DEPARTMENT-SERVICE,,] 10728 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-01-08 07:52:02.203  INFO [DEPARTMENT-SERVICE,,] 10728 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-01-08 07:52:02.203  INFO [DEPARTMENT-SERVICE,,] 10728 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-01-08 07:52:02.203  INFO [DEPARTMENT-SERVICE,,] 10728 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-01-08 07:52:02.203  INFO [DEPARTMENT-SERVICE,,] 10728 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-01-08 07:52:02.204  INFO [DEPARTMENT-SERVICE,,] 10728 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-01-08 07:52:02.503  INFO [DEPARTMENT-SERVICE,,] 10728 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-01-08 07:56:29.762  INFO [DEPARTMENT-SERVICE,,] 10728 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-08 07:57:54.305  INFO [DEPARTMENT-SERVICE,5458a260bbda378f,5458a260bbda378f] 10728 --- [http-nio-9001-exec-2] c.d.controler.DepartmentControler        : save department method called.
+2022-01-08 07:57:55.601  WARN [DEPARTMENT-SERVICE,,] 10728 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2022-01-08 07:57:55.611  WARN [DEPARTMENT-SERVICE,,] 10728 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:69) ~[spring-cloud-sleuth-zipkin-3.1.0.jar:3.1.0]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:660) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:151) ~[spring-cloud-sleuth-zipkin-3.1.0.jar:3.1.0]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:169) ~[spring-cloud-sleuth-zipkin-3.1.0.jar:3.1.0]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:159) ~[spring-cloud-sleuth-zipkin-3.1.0.jar:3.1.0]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.1.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:669) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:645) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:497) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:600) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:372) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1299) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1232) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1120) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1051) ~[na:na]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776) ~[spring-web-5.3.13.jar:5.3.13]
+	... 9 common frames omitted
+
+2022-01-08 07:58:30.783  INFO [DEPARTMENT-SERVICE,3b11ffde491f2906,df2aac8e1579a1f4] 10728 --- [http-nio-9001-exec-3] c.d.controler.DepartmentControler        : save department method called.
+2022-01-08 07:58:39.804  INFO [DEPARTMENT-SERVICE,a52e882cdda56993,24ab25f9f7d54320] 10728 --- [http-nio-9001-exec-4] c.d.controler.DepartmentControler        : fid department by id method called..
+2022-01-08 08:01:29.797  INFO [DEPARTMENT-SERVICE,,] 10728 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-08 08:06:29.820  INFO [DEPARTMENT-SERVICE,,] 10728 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-08 08:06:38.449  INFO [DEPARTMENT-SERVICE,,] 10728 --- [RMI TCP Connection(24)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-08 08:06:38.491  INFO [DEPARTMENT-SERVICE,,] 10728 --- [RMI TCP Connection(24)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application DEPARTMENT-SERVICE with eureka with status DOWN
+2022-01-08 08:06:38.492  INFO [DEPARTMENT-SERVICE,,] 10728 --- [RMI TCP Connection(24)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1641609398492, current=DOWN, previous=UP]
+2022-01-08 08:06:38.493  INFO [DEPARTMENT-SERVICE,,] 10728 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/LAPTOP-762HISMA:DEPARTMENT-SERVICE:9001: registering service...
+2022-01-08 08:06:38.864  INFO [DEPARTMENT-SERVICE,,] 10728 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/LAPTOP-762HISMA:DEPARTMENT-SERVICE:9001 - registration status: 204
+2022-01-08 08:06:39.326  INFO [DEPARTMENT-SERVICE,,] 10728 --- [Thread-5] o.s.c.s.a.z.ZipkinAutoConfiguration      : Flushing remaining spans on shutdown
+2022-01-08 08:06:39.343  INFO [DEPARTMENT-SERVICE,,] 10728 --- [RMI TCP Connection(24)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-08 08:06:39.503 ERROR [DEPARTMENT-SERVICE,,] 10728 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Error thrown while acquiring connection from data source
+
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:170) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.checkSuspended(Session.java:1369) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.isOpen(Session.java:1303) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.waitIfExclusiveModeEnabled(Session.java:1639) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Command.executeQuery(Command.java:186) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:631) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:408) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[HikariCP-4.0.3.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2022-01-08 08:06:39.599  WARN [DEPARTMENT-SERVICE,,] 10728 --- [RMI TCP Connection(24)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-01-08 08:06:39.603  INFO [DEPARTMENT-SERVICE,,] 10728 --- [RMI TCP Connection(24)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-08 08:06:39.761  INFO [DEPARTMENT-SERVICE,,] 10728 --- [RMI TCP Connection(24)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-08 08:06:40.064  INFO [DEPARTMENT-SERVICE,,] 10728 --- [RMI TCP Connection(24)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-01-08 08:06:43.091  INFO [DEPARTMENT-SERVICE,,] 10728 --- [RMI TCP Connection(24)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-01-08 08:06:43.404  INFO [DEPARTMENT-SERVICE,,] 10728 --- [RMI TCP Connection(24)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/LAPTOP-762HISMA:DEPARTMENT-SERVICE:9001 - deregister  status: 200
+2022-01-08 08:06:43.452  INFO [DEPARTMENT-SERVICE,,] 10728 --- [RMI TCP Connection(24)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
