@@ -28,6 +28,12 @@ public class DepartmentControler {
 
 	Logger logger =org.slf4j.LoggerFactory.getLogger(DepartmentControler.class);
 	
+	@RequestMapping("/test")
+	public String test() {
+		return "departemnt-service is running fine ..";
+	}
+	
+	
 	@PostMapping("/")
 	public Department saveDepartment(@RequestBody Department department) {
 
